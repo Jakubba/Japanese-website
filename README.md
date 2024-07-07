@@ -14,7 +14,9 @@ Newspapers and Magazines: Current issues of popular Japanese magazines and newsp
 The website was created using the latest web technologies to provide you with the best user experience. We used:
 
 React: A modern JavaScript library for building interactive user interfaces.
+
 HTML, CSS, SASS: Standard web technologies ensuring an aesthetic and responsive website design.
+
 GSAP (GreenSock Animation Platform): An advanced platform for creating smooth animations that add dynamism and attractiveness to our site.
 
 ## Demo version website
