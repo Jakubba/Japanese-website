@@ -1,4 +1,3 @@
-import React from 'react';
 import './Navbar.scss';
 import logo from '../../assets/images/logo-black.svg';
 import logoMenu from '../../assets/images/six-signs.svg';

@@ -12,7 +12,7 @@
   padding: 32px 16px 0;
   transition: 1s color;
   pointer-events: none;
-  opacity: 0;
+  // opacity: 0;
   &--left {
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
       }
       &_line {
         display: block;
-        height: auto;
+        height: 2px;
         width: 100%;
       }
       &_circle {
@@ -102,7 +102,7 @@
         height: 9px;
       }
       &_line {
-        height: auto;
+        height: 2px;
         width: 100%;
         display: block;
       }
@@ -143,6 +143,7 @@
   overflow-x: hidden;
   padding-top: 36px;
   pointer-events: none;
+  display: none;
   &_img {
     height: 97px;
     color: #000 !important;
