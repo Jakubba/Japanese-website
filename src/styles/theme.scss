@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  background: url('../assets/images/Light_Background.jpg') repeat center center fixed;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../assets/images/Dark_Background.jpg') repeat center center fixed;
+    opacity: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+}
